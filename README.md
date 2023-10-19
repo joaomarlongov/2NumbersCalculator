@@ -10,6 +10,6 @@ usando o conhecimento aprendido sobre useEffect!
 
 ----
 
-- Link do deploy: https://2calcnum.netlify.app/
+- Link do deploy: https://2numcalc.netlify.app/
 
 
