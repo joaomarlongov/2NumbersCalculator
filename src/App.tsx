@@ -71,7 +71,7 @@ function App() {
         </div>
       </div>
 
-      <h3 className="result">Result: {resultado.toFixed(2.3)}</h3>
+      <h3 className="result">Result: {new Intl.NumberFormat("de-DE").format(resultado)}</h3>
     </>
   );
 }
