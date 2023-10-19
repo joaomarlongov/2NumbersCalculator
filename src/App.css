@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+    color: #1E1E1E;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+input, select{
+    margin-top: 5px;
+    border: none;
+    border: 2px solid #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    font-family: 'VT323', monospace;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.inputs{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+
+.primeiroNum{
+    display: flex;
+    flex-direction: column;
+}
+
+.operator{
+    display: flex;
+    flex-direction: column;
+}
+
+.operator h2{
+    text-align: center;
+}
+
+.segundoNum{
+    display: flex;
+    flex-direction: column;
+}
+
+.result{
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+
+
+@media only screen and (max-width: 700px){
+
+    h1{
+        font-size: 80px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .inputs{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+    }
+
+    .operator h2{
+        text-align: start;
+    }
+    
+    .primeiroNum{
+        width: 250px;
+    }
+    
+    .operator{
+        width: 250px;
+    }
+
+    .segundoNum{
+        width: 250px;
+    }
+
+    .result{
+        margin-top: 30px;
+        font-size: 40px;
+        text-align: center;
+    }
+}
